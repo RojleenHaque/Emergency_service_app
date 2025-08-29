@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emergency Service Directory — Bangladesh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo">⚡</div>
+        <div class="title">Emergency Service</div>
+      </div>
+      <div class="stats">
+        <div class="pill" title="Favorites">
+          <span class="icon">💗</span>
+          <span id="heartCount">0</span>
+        </div>
+        <div class="pill" title="Coins">
+          <span class="icon">🪙</span>
+          <span id="coinCount">100</span>
+        </div>
+        <div class="pill" title="Copies">
+          <span class="icon">📋</span>
+          <span id="copyCount">0</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="crest">🇧🇩</div>
+    <h1>Emergency Service Directory</h1>
+    <p>Government Emergency Services at Your Fingertips</p>
+  </section>
+
+  <!-- MAIN -->
+  <main class="container">
+    <div class="panel">
+      <!-- Cards -->
+      <section>
+        <div id="cards" class="grid"></div>
+      </section>
+      <!-- History -->
+      <aside class="history">
+        <div class="history-head">
+          <div class="history-title"><span>🕘</span><span>Call History</span></div>
+          <button id="clearHistory" class="clear">Clear</button>
+        </div>
+        <ul id="historyList" class="history-list"></ul>
+        <div id="historyEmpty" class="empty">No calls yet. Your history will appear here.</div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    Built with HTML, CSS & Vanilla JS • This is a demo UI inspired by public emergency service directories.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
