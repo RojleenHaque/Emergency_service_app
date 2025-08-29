@@ -1,7 +1,7 @@
 # Assignment 5
 # Emergency Service Directory — Bangladesh
 
-A single-page web app that lists emergency hotlines as cards and shows a **Call History** panel. It implements the required UI and behaviors using **HTML, CSS, and Vanilla JavaScript**.
+A single-page web app that lists emergency hotlines as cards and shows a **Call History** panel. It implements the required UI and behaviors using 
 
 ## How to run
 Just open `index.html` in any modern browser and run it
